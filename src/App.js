@@ -1,10 +1,22 @@
 import React from 'react'
 import Greet from './Components/Greet.jsx'
+import Book from './Components/Book.jsx'
+import UserCard from './Components/UserCard.jsx'
+import ToggleColor from './Components/ToggleColor.jsx'
+import TogglePara from './Components/TogglePara.jsx'
+import List from './Components/List.jsx'
+import Form from './Components/Form.jsx'
 
 const App = () => {
   return (
    <>
-   <Greet name="Junaid" />
+   <Greet />
+   <Book/>
+   <UserCard name="Jerry" email="g8C9t@example.com" age="20"/>
+   <ToggleColor />
+   <TogglePara />
+   <List />
+   <Form />
    </>
   )
 }
