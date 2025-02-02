@@ -7,6 +7,7 @@ import TogglePara from './Components/TogglePara.jsx'
 import List from './Components/List.jsx'
 import Form from './Components/Form.jsx'
 import FetchApi from './Components/FetchApi.jsx'
+import Todo from './Components/Todo.jsx'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
    <List />
    <Form />
    <FetchApi/>
+   <Todo/>
    </>
   )
 }
