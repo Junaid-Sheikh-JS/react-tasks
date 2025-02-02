@@ -6,6 +6,7 @@ import ToggleColor from './Components/ToggleColor.jsx'
 import TogglePara from './Components/TogglePara.jsx'
 import List from './Components/List.jsx'
 import Form from './Components/Form.jsx'
+import FetchApi from './Components/FetchApi.jsx'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
    <TogglePara />
    <List />
    <Form />
+   <FetchApi/>
    </>
   )
 }
