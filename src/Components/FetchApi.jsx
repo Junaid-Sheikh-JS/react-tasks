@@ -6,7 +6,7 @@ const FetchApi = () => {
     let fetchData = 'https://jsonplaceholder.typicode.com/posts'
     fetch(fetchData)
       .then(response => response.json())
-      .then(data => setPosts(data))
+      .then(data => setPosts(data.slice(0, 10)))
       .catch(error => console.error('Error:', error))
   }, [])
   return (
