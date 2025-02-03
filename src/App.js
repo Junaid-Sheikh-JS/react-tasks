@@ -7,22 +7,22 @@ import TogglePara from './Components/TogglePara.jsx'
 import List from './Components/List.jsx'
 import Form from './Components/Form.jsx'
 import FetchApi from './Components/FetchApi.jsx'
-import Todo from './Components/Todo.jsx'
+import Todo from './Components/Todo/Todo.jsx'
 
 const App = () => {
   return (
-   <>
-   <Greet />
-   <Book/>
-   <UserCard name="Jerry" email="g8C9t@example.com" age="20"/>
-   <ToggleColor />
-   <TogglePara />
-   <List />
-   <Form />
-   <FetchApi/>
-   <Todo/>
-   </>
+    <>
+      <Greet />
+      <Book />
+      <UserCard name="Jerry" email="g8C9t@example.com" age="20" />
+      <ToggleColor />
+      <TogglePara />
+      <List />
+      <Form />
+      <FetchApi />
+      <Todo />
+    </>
   )
 }
 
-export default App
+export default App;
