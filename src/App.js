@@ -8,6 +8,7 @@ import List from './Components/List.jsx'
 import Form from './Components/Form.jsx'
 import FetchApi from './Components/FetchApi.jsx'
 import Todo from './Components/Todo/Todo.jsx'
+import UseReducer from './Components/UseReducer.jsx'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Form />
       <FetchApi />
       <Todo />
+      <UseReducer/>
     </>
   )
 }
